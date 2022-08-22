@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    display: flex;
+    font-size: 30px;
+    background-color: #1f2937;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    padding:40px;
+    justify-content: center;
+}
+.score
+{
+    display: flex;
+    margin:50px;
+    justify-content: space-evenly;
+}
+#buttons
+{
+    background-color: navy;
+    display: flex;
+    border: 2px solid red;
+    padding:100px;
+    justify-content: space-evenly;
+}
+#rock,#paper,#scissors
+{
+    padding:20px;
+  
+}
+
+
