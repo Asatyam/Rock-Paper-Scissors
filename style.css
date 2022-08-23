@@ -1,6 +1,7 @@
 *{
     margin: 0px;
-    background-color: white;
+    background-color: black;
+    color:white;
     font-family: 'Courier New', Courier, monospace;
 }
 .header{
@@ -17,19 +18,64 @@
     display: flex;
     margin:50px;
     justify-content: space-evenly;
+    font-size: 20px;
 }
+
 #buttons
 {
-    background-color: navy;
+    background-color: turquoise;
     display: flex;
-    border: 2px solid red;
     padding:100px;
     justify-content: space-evenly;
+    
 }
 #rock,#paper,#scissors
 {
-    padding:20px;
-  
+    padding:0px;
+    transition-duration: 0.4s;
+   
+    
 }
-
-
+.img{
+    height:30px;
+    width: auto;
+}
+#rock:hover,#paper:hover,#scissors:hover{
+    color:white;
+    font-size: 16px;
+    box-shadow: 10px;
+    box-shadow: 10px 10px 8px rgb(63, 62, 62);
+}
+#playAgain{
+    display: flex;
+    justify-content: center;  
+    color:black;  
+    margin-top:20px;
+}
+#computerChoice
+{
+    font-size:50px;
+    margin:50px;
+}
+#results
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+}
+#finalResult{
+    display: flex;
+    justify-content: center;
+    font-size:30px;
+    background-color: rgb(88, 17, 163);
+    padding:20px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    margin-top: 30px;
+    padding: 30px;
+    color: white;
+}
